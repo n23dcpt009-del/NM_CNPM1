@@ -1,1 +1,41 @@
+📌 Mô tả chức năng chính và các tác nhân của sơ đồ Use Case Diagram Mini-App (Quản lý thông tin nhân viên & chấm công)
 
+🔷 Các tác nhân (Actors)
+
+Nhân viên:
+
+Thực hiện chấm công (Check-in/Check-out) qua ứng dụng.
+
+Xem lịch sử ca làm việc và giờ công cá nhân.
+
+Quản lý:
+
+Quản lý thông tin nhân viên (thêm, chỉnh sửa, xóa).
+
+Quản lý ca làm việc và phân ca cho nhân viên.
+
+Xuất báo cáo thống kê theo ngày/tuần/tháng.
+
+Admin:
+
+Quản trị hệ thống, duy trì dữ liệu.
+
+Cấp quyền cho quản lý/nhân viên.
+
+Kiểm tra, bảo trì và nâng cấp hệ thống khi cần.
+
+🔷 Các chức năng chính (Use Cases)
+
+Nhân viên:
+▪ Check-in/Check-out: chấm công khi bắt đầu/kết thúc ca làm.
+▪ Xem lịch sử chấm công: theo dõi chi tiết giờ làm và ca làm việc của bản thân.
+
+Quản lý:
+▪ Quản lý thông tin nhân viên: thêm, chỉnh sửa hoặc xóa hồ sơ nhân viên.
+▪ Quản lý ca làm việc: thiết lập, thay đổi và phân ca cho nhân viên.
+▪ Xuất báo cáo thống kê: tổng hợp dữ liệu chấm công theo ngày, tuần, tháng để đánh giá hiệu quả làm việc.
+
+Admin:
+▪ Cấp quyền và duy trì hệ thống: phân quyền truy cập cho quản lý/nhân viên.
+▪ Quản lý vận hành hệ thống: đảm bảo hệ thống hoạt động ổn định.
+▪ Nâng cấp và cải tiến: cập nhật, bổ sung tính năng khi cần thiết.
