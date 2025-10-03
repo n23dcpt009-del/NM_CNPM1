@@ -1,7 +1,7 @@
 # 🛠️ Software Engineering Project – Mini App Quản Lý Chấm Công Nhân Viên
 
-**NHÓM:** 3  
-**LỚP:** D23CQPTUD01-N  
+**NHÓM:**   
+**LỚP:** D23CQPTTK01-N  
 
 ---
 
@@ -16,34 +16,38 @@ Mini app quản lý chấm công nhân viên, hỗ trợ quản lý thông tin, 
 ---
 
 ## 🎯 Use Case chính
-- Quản lý nhân viên: thêm, sửa, xóa thông tin  
-- Chấm công: Check-in/Check-out  
-- Quản lý ca làm việc  
-- Báo cáo ngày/tuần/tháng  
+- Quản lý thông tin nhân viên: thêm, chỉnh sửa, xóa  
+- Chấm công: Check-in / Check-out qua ứng dụng  
+- Quản lý ca làm việc, phân ca cho nhân viên  
+- Xuất báo cáo thống kê theo ngày / tuần / tháng  
 
-![Use Case](https://private-user-images.githubusercontent.com/.../example.png)
+
+<img width="1770" height="214" alt="image" src="https://github.com/user-attachments/assets/b1e0b50c-237b-4b77-8cf1-21f7f8546af1" />
+
 
 ---
 
 ## 🗂 Thiết kế hệ thống
-- Use Case Diagram: *Use Case*  
-- Sequence Diagram: *Sequence*  
-- ERD (Entity Relationship Diagram): *ERD*  
-
+- Use Case Diagram: mô tả chức năng chính của hệ thống  
+- Sequence Diagram: biểu diễn luồng tương tác giữa các thành phần  
+- ERD (Entity Relationship Diagram): thiết kế cơ sở dữ liệu  
 ---
 
 ## 💻 Công nghệ sử dụng
-- **Ngôn ngữ:** Java / Python / JavaScript / PHP  
-- **IDE:** Visual Studio Code  
-- **CSDL:** MySQL / PostgreSQL  
-- **Quản lý phiên bản:** Git + GitHub  
-- **Mô hình phát triển:** Agile – Scrum  
+- Frontend: HTML / CSS / JavaScript (ReactJS)  
+- Backend: Python (Flask) hoặc Java (Spring Boot)  
+- Database: MySQL  
+- IDE: Visual Studio Code  
+- Quản lý phiên bản: Git + GitHub  
+- Mô hình phát triển: Agile – Scrum, quản lý công việc bằng Trello  
+
 
 ---
 
 ## 🚀 Cài đặt & chạy thử
+
 Clone repo:
 
 ```bash
-git clone https://github.com/<your-username>/Nhap-mon-CNPM.git
-cd Nhap-mon-CNPM
+git clone https://github.com/<NM_CNPM1>/NM_CNPM1.git
+cd NM_CNPM1
