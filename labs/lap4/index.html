@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quản Lý Chấm Công - Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <form id="loginForm" class="card" novalidate>
+      <div class="brand">
+        <!-- Thay src bằng logo nhóm nếu có -->
+        <div class="logo">🕒</div>
+        <div>
+          <h1 class="title">Quản Lý Chấm Công</h1>
+          <p class="subtitle">Đăng nhập để tiếp tục</p>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="username">Username</label>
+        <input
+          id="username"
+          name="username"
+          type="text"
+          placeholder="VD: nv001"
+          autocomplete="username"
+          required
+        />
+        <p class="error" id="userErr"></p>
+      </div>
+
+      <div class="field">
+        <label for="password">Password</label>
+        <div class="password-wrap">
+          <input
+            id="password"
+            name="password"
+            type="password"
+            placeholder="Nhập mật khẩu"
+            autocomplete="current-password"
+            required
+          />
+          <button type="button" class="toggle" id="togglePwd" aria-label="Hiện/ẩn mật khẩu">👁</button>
+        </div>
+        <p class="error" id="passErr"></p>
+      </div>
+
+      <div class="row between">
+        <label class="remember">
+          <input id="remember" type="checkbox" />
+          Remember me
+        </label>
+        <a class="small" href="#" onclick="return false;">Quên mật khẩu?</a>
+      </div>
+
+      <div class="row">
+        <button type="submit" class="btn primary">Login</button>
+        <button type="button" id="btnCancel" class="btn">Cancel</button>
+      </div>
+
+      <p class="msg" id="formMsg" role="status" aria-live="polite"></p>
+
+      <details class="hint">
+        <summary>Tài khoản demo</summary>
+        <ul>
+          <li>Username: <code>nv001</code> — Password: <code>123456</code></li>
+          <li>Username: <code>hr01</code> — Password: <code>admin</code></li>
+        </ul>
+      </details>
+    </form>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
