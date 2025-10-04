@@ -1,0 +1,87 @@
+1. Use Case cho Quản lý thông tin nhân viên
+🎭 Actors:
+
+Manager (Quản lý): người thao tác thêm, sửa, xóa thông tin nhân viên.
+
+Hệ thống: lưu trữ, xác thực và phản hồi kết quả.
+
+🎬 Các Use Case chính:
+
+Thêm nhân viên: nhập thông tin (họ tên, email, số điện thoại, chức vụ, phòng ban...), hệ thống lưu vào DB.
+
+Chỉnh sửa thông tin: cập nhật hồ sơ nhân viên có sẵn.
+
+Xóa nhân viên: loại bỏ hồ sơ khỏi hệ thống.
+
+📌 Use Case phụ:
+
+Xác thực quyền hạn (include): chỉ Manager được phép thực hiện.
+
+Ghi log hoạt động (extend): lưu lịch sử thao tác.
+
+2. Use Case cho Chấm công (Check-in/Check-out)
+🎭 Actors:
+
+Employee (Nhân viên): thực hiện check-in/check-out qua ứng dụng.
+
+Hệ thống: ghi nhận và lưu dữ liệu giờ công.
+
+🎬 Các Use Case chính:
+
+Check-in: nhân viên bấm nút check-in khi bắt đầu ca.
+
+Check-out: nhân viên bấm nút check-out khi kết thúc ca.
+
+Xem lịch sử chấm công: nhân viên tra cứu giờ làm đã ghi nhận.
+
+📌 Use Case phụ:
+
+Xác thực danh tính (include): kiểm tra nhân viên hợp lệ trước khi ghi nhận.
+
+Ghi log hoạt động (extend): lưu lịch sử thao tác.
+
+3. Use Case cho Quản lý ca làm việc, phân ca
+🎭 Actors:
+
+Manager (Quản lý): thiết lập và phân công ca.
+
+Hệ thống: lưu và cập nhật lịch ca làm.
+
+🎬 Các Use Case chính:
+
+Thêm ca làm việc: tạo ca mới với khung giờ, nhiệm vụ cụ thể.
+
+Chỉnh sửa ca làm việc: cập nhật thông tin ca đã có.
+
+Phân công ca cho nhân viên: gán ca làm cho từng nhân viên.
+
+Xem lịch ca: cho cả Manager và Employee.
+
+📌 Use Case phụ:
+
+Xác thực quyền hạn (include).
+
+Ghi log hoạt động (extend).
+
+4. Use Case cho Xuất báo cáo thống kê (ngày/tuần/tháng)
+🎭 Actors:
+
+Manager (Quản lý): yêu cầu hệ thống xuất báo cáo.
+
+Hệ thống: tổng hợp dữ liệu và tạo file báo cáo.
+
+🎬 Các Use Case chính:
+
+Thống kê theo ngày: xem chi tiết giờ công trong 1 ngày.
+
+Thống kê theo tuần: tổng hợp dữ liệu trong 1 tuần.
+
+Thống kê theo tháng: xuất báo cáo toàn bộ tháng.
+
+Xuất file: tải về dưới dạng Excel hoặc PDF.
+
+📌 Use Case phụ:
+
+Xác thực quyền hạn (include).
+
+Lưu log thao tác (extend).
